@@ -1,0 +1,4 @@
+resource "aws_key_pair" "terraform_april" {
+  key_name   = "terraform_april"
+  public_key = "ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQDZdhAScV+T4ouKmNJDDUopiv8fKA3t15sSXsYVwG4Ml6QgkuAm602ATAIPH1m2/xde5nKWubWtY0jxC1kwSCPEEgG7c5cOhtYXIFaQxpNeWPW4llHmV/gno5gJLN2OSm3/f9p32YmTZ6OsCZN853HtXC3Zmr9SBHRLeZDUdJ9+Dg0vyJ61qMh9yVkGGFNzDWbCGQ9V1KExXn4Z/q2FZC1n9UqWwc6rFUcAr7LxoNaSmM4eYkAwPctH3CQlZC9CCx6V1FVcHTJ0w/bwSyM+m3RVOfYAKWRXtKOco6DoOVg+RMY9r3qHc6qBrdfd7JwK7P7mMIG/8knlQmskvUAt7TTX root@ip-172-31-42-88.us-east-2.compute.internal"
+}
