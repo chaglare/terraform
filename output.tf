@@ -1,2 +1,3 @@
 output "key_name" {
-    value = "$aws_key_pair.terrafrom_april"}
+    value = "{$aws_key_pair.terrafrom_april.key_name}"
+    }
